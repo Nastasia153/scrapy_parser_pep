@@ -1,7 +1,7 @@
 from pathlib import Path
 
 BASE_DIR = Path(__file__).parent.parent
-# RESULTS_DIR = BASE_DIR / 'results' - хорошая идея, но по тестам не прошла.
+RESULTS_DIR = BASE_DIR / 'results'
 
 BOT_NAME = 'pep_parse'
 
